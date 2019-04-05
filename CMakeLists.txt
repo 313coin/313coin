@@ -17,7 +17,7 @@ else()
     configure_file(${CMAKE_CURRENT_SOURCE_DIR}/CTestCustom.cmake ${CMAKE_CURRENT_BINARY_DIR})
 endif()
 
-project(monetaverde)
+project(313coin)
 
 include_directories(include
     src
@@ -187,7 +187,7 @@ elseif(DEFINED COMMIT_ID_IN_VERSION)
         set(COMMIT_ID "unknown")
     endif()
     set(VERSION "${VERSION_MAJOR}.${VERSION_MINOR}")
-    message(STATUS "--------------------- Monetaverde Core build details ----------------------------")
+    message(STATUS "--------------------- 313coin Core build details ----------------------------")
     message(STATUS "Build : ${CMAKE_BUILD_TYPE}")
     message(STATUS "Compiler : ${CMAKE_C_COMPILER_ID} version ${CMAKE_CXX_COMPILER_VERSION}")
     message(STATUS "Branch : ${GIT_BRANCH}")
