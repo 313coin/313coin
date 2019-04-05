@@ -9,7 +9,7 @@ Libraries needed : boost >=1.58
 
 How to compile this :
 ```
-$ git clone https://github.com/mcnproject/monetaverde.git
+$ git clone https://github.com/313coin/313coin.git
 $ cd 313coin
 $ mkdir build
 $ cd build
