@@ -582,7 +582,7 @@ bool CryptoNoteProtocolHandler::on_connection_synchronized() {
   bool val_expected = false;
   if (m_synchronized.compare_exchange_strong(val_expected, true)) {
     logger(Logging::INFO) << ENDL << "**********************************************************************" << ENDL
-      << "You are now synchronized with the Monetaverde network." << ENDL
+      << "You are now synchronized with the 313coin network." << ENDL
       << ENDL
       << "Exit monetaverded and simplewallet with the \"exit\" or \"save\" command." << ENDL
       << "Otherwise, you may lose your blockchain and wallet data." << ENDL
