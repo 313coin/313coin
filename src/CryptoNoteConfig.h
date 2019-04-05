@@ -105,7 +105,7 @@ const uint64_t TESTNET_DIFFICULTY_TARGET                             = 15; // ta
 
 } // parameters
 
-const char     CRYPTONOTE_NAME[]                             = "monetaverde";
+const char     CRYPTONOTE_NAME[]                             = "313coin";
 const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff00002101274a48ea82cb5d54547e6dd7ed87af943761d82c9050f60f56da4a7e71baa2f5";
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
@@ -122,8 +122,8 @@ const size_t   BLOCKS_IDS_SYNCHRONIZING_DEFAULT_COUNT        =  10000;  //by def
 const size_t   BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  300;    //by default, blocks count in blocks downloading
 const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
 
-const int      P2P_DEFAULT_PORT                              =  26080;
-const int      RPC_DEFAULT_PORT                              =  26081;
+const int      P2P_DEFAULT_PORT                              =  13131;
+const int      RPC_DEFAULT_PORT                              =  31313;
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                =  1000;
 const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                 =  5000;
@@ -141,12 +141,8 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "db9eabe971890012a4071a96468155c2c360f80d18e73caa97bffd3b7381eed7";
 
 const char* const SEED_NODES[] = {
-  "176.9.47.243:8580",
-  "66.85.133.156:26080",
-  "35.227.28.16:26080",
-  "145.239.5.182:26080", // london
-  "144.217.84.27:26080", // canada
-  "173.212.213.63:26080" // oieieio's
+  "144.217.29.36:13131",
+  "192.95.20.54:13131"
 };
 
 
@@ -156,13 +152,7 @@ struct CheckpointData {
 };
 
 const std::initializer_list<CheckpointData> CHECKPOINTS = {
-    {200000, "23f18774eee12a43c80d7162fba4d5fb10290128f31890a7cd0ff6c4e2948277"},
-    {400000, "a1d34d9e229c6e425f7a9d5dfa1fa35525e3f387ed664a04c6ef5cc609357057"},
-    {600000, "2a9461eb7ae8a934a111b2e9f570e81efaf02c5382a9c707cadce88e768a9205"},
-    {800000, "a1ed05e9671acce3cfa7dd283f0be5320b8d626fe84be4703fc8d3be95ffcc59"},
-    {1000000, "d410152f30e4c21e0bc1d82ee80f757fd2223e8a1636774b8759101f4f21dd91"},
-    {1500000, "23e3e5273df28de9036b7336894578873257e1b1a2d2d14ab9945b7333ce8707"},
-    {2000000, "2d5892e15d7b2066d0b26aa150c4419676dbf7678d220b2d111c74c54c0fe6ad"}
+
 };
 
 } // CryptoNote
